@@ -16,8 +16,23 @@ Este projeto é um conversor de arquivos ZPL (Zebra Programming Language) para P
   - `PyPDF2`
   - `tkinter` (geralmente incluído com Python)
 
-Você pode instalar as bibliotecas necessárias usando `pip`:
+- Você pode instalar as bibliotecas necessárias usando `pip`:
 
-```bash
-    pip install requests PyPDF2
+  ```bash
+  pip install requests PyPDF2
+  ```
+## Uso
 
+Execute o script Python. Uma caixa de diálogo será exibida para selecionar arquivos ZPL.
+O script converterá cada arquivo ZPL selecionado em um arquivo PDF.
+Após a conversão, todos os PDFs gerados serão combinados em um único arquivo PDF chamado labels.pdf no mesmo diretório onde o primeiro PDF foi salvo.
+Os arquivos PDF individuais serão removidos após a combinação (opcional).
+
+## Exemplo de Execução
+
+  ```bash
+  python zpl_to_pdf_converter.py
+```
+## Contato
+
+Se você tiver alguma dúvida, entre em contato com seu-emai joseiltonjass@hotmail.com

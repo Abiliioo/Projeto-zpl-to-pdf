@@ -87,7 +87,7 @@ for zpl_file in zpl_files:
 if pdf_files:
     # Definir o caminho do arquivo unificado no mesmo diretório onde o primeiro PDF foi salvo
     first_pdf_dir = os.path.dirname(pdf_files[0])
-    combined_pdf_path = os.path.join(first_pdf_dir, 'unified_labels.pdf')
+    combined_pdf_path = os.path.join(first_pdf_dir, 'labels.pdf')
     combine_pdfs(pdf_files, combined_pdf_path)
     
     # Opcional: Remover os PDFs individuais após a união
